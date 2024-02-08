@@ -11,7 +11,7 @@ const aj = arcjet({
   key: process.env.ARCJET_KEY!,
   rules: [
     detectBot({
-      mode: "DRY_RUN", // will block requests. Use "DRY_RUN" to log only
+      mode: "LIVE", // will block requests. Use "DRY_RUN" to log only
       block: ["AUTOMATED"], // blocks all automated clients
     }),
   ],

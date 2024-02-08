@@ -108,8 +108,8 @@ const aj = arcjet({
   key: process.env.ARCJET_KEY!,
   rules: [
     detectBot({
-      mode: "LIVE", // will block requests. Use "DRY_RUN" to log only
-      block: ["AUTOMATED"], // blocks all automated clients
+      mode: "DRY_RUN", // will not block requests, log them only
+      block: ["AUTOMATED"], // targets all automated clients
     }),
   ],
 });
@@ -130,4 +130,6 @@ The [ArcJet Dashboard](https://app.arcjet.com/teams) keeps track of calls that h
 
 That's all there is to it! If you have any questions you can contact me at synedra@gmail.com, or check the ArcJet documentation which has clear, excellent examples.
 
-Note that if you deploy this to Vercel, you will need a "Pro" account because the api/chat client is too big. This will deploy locally with no problem, however.
+Note that if you deploy this to Vercel, you will need a "Pro" account because the api/chat client is too big. You will also want to change the bot protection to be more lenient, as the Vercel system itself shows up as an AUTOMATED bot. You can change this value, or change LIVE to "DRY_RUN" in the configuration.
+
+This will deploy locally with no problem, however.
