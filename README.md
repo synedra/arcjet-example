@@ -132,4 +132,6 @@ That's all there is to it! If you have any questions you can contact me at syned
 
 Note that if you deploy this to Vercel, you will need a "Pro" account because the api/chat client is too big. You will also want to change the bot protection to be more lenient, as the Vercel system itself shows up as an AUTOMATED bot. You can change this value, or change LIVE to "DRY_RUN" in the configuration.
 
+[Vercel Deployment]https://arcjet-example.vercel.app/ has the current code for this repository.
+
 This will deploy locally with no problem, however.
