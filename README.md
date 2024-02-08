@@ -129,3 +129,5 @@ The [ArcJet Dashboard](https://app.arcjet.com/teams) keeps track of calls that h
 ![](public/arcjet_dashboard.jpg)
 
 That's all there is to it! If you have any questions you can contact me at synedra@gmail.com, or check the ArcJet documentation which has clear, excellent examples.
+
+Note that if you deploy this to Vercel, you will need a "Pro" account because the api/chat client is too big. This will deploy locally with no problem, however.

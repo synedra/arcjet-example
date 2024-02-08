@@ -19,7 +19,7 @@ const aj = arcjet({
     rateLimit({
       mode: "LIVE", // will block requests. Use "DRY_RUN" to log only
       window: "1m", // counts requests over a 1 minute window
-      max: 1, // allows 1 request within the window
+      max: 1000, // allows 1 request within the window
       timeout: "10m", // blocks requests for 10 min after hitting the limit
     }),
   ],
