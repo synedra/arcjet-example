@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Example chat-bot Application using ArcJet and Vercel
 
 ## Technologies
 
@@ -125,3 +125,7 @@ curl -I http://localhost:3000
 ### Dashboard
 
 The [ArcJet Dashboard](https://app.arcjet.com/teams) keeps track of calls that have been made which triggered any of the ArcJet functionality. If you're not sure why calls are behaving how they are, pull up the dashboard and have a look.
+
+![](public/arcjet_dashboard.jpg)
+
+That's all there is to it! If you have any questions you can contact me at synedra@gmail.com, or check the ArcJet documentation which has clear, excellent examples.
