@@ -128,10 +128,10 @@ The [ArcJet Dashboard](https://app.arcjet.com/teams) keeps track of calls that h
 
 ![](public/arcjet_dashboard.jpg)
 
+## Demo
+
+Note that if you deploy this to Vercel, you will need a "Pro" account because the api/chat client is too big. You will also want to change the bot protection to be more lenient, as the Vercel system itself shows up as an AUTOMATED bot. You can change this value, or change LIVE to "DRY_RUN" in the configuration to just see the bot information in the logs.
+
+[Vercel Deployment](https://arcjet-example.vercel.app/) has the current code for this repository
+
 That's all there is to it! If you have any questions you can contact me at synedra@gmail.com, or check the ArcJet documentation which has clear, excellent examples.
-
-Note that if you deploy this to Vercel, you will need a "Pro" account because the api/chat client is too big. You will also want to change the bot protection to be more lenient, as the Vercel system itself shows up as an AUTOMATED bot. You can change this value, or change LIVE to "DRY_RUN" in the configuration.
-
-[Vercel Deployment]https://arcjet-example.vercel.app/ has the current code for this repository.
-
-This will deploy locally with no problem, however.
