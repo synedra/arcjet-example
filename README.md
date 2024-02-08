@@ -34,18 +34,22 @@ provides the following features:
 - With the ArcJet SDK it is easy to set up basic rate limiting.
 - An initial request from a client will get a slight increase in latency, around 10-20 ms. ArcJet can then cache the decision locally so that subequent requests will not get the hit.
 
-## Getting Started
+## [Getting Started with NextJS](https://docs.arcjet.com/get-started/nextjs)
 
-First, run the development server:
+First, you'll need to [Sign up for ArcJet](https://app.arcjet.com/), create a site and get a site key.
+
+Next, set up your development environment:
+
+```bash
+git clone https://github.com/synedra/arcjet-example
+cd arcjet-example
+npm install
+```
+
+Finally, run the development server using npm (or your favorite js package manager):
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
