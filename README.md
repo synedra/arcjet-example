@@ -38,6 +38,8 @@ provides the following features:
 
 First, you'll need to [Sign up for ArcJet](https://app.arcjet.com/), create a site and get a site key.
 
+Because this example uses OpenAI you will also need to get an API key from [OpenAI](https://openai.com)
+
 Next, set up your development environment on your localhost, or you can choose to use [Github Codespaces](https://github.com/codespaces/new?template_repository=synedra/arcjet-example) to run it in a virtual environment.  
 
 If you are working locally, follow these steps.
