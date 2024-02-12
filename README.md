@@ -38,12 +38,21 @@ provides the following features:
 
 First, you'll need to [Sign up for ArcJet](https://app.arcjet.com/), create a site and get a site key.
 
-Next, set up your development environment:
+Next, set up your development environment on your localhost, or you can choose to use [Github Codespaces](https://github.com/codespaces/new?template_repository=synedra/arcjet-example) to run it in a virtual environment.  
+
+If you are working locally, follow these steps.
 
 ```bash
 git clone https://github.com/synedra/arcjet-example
 cd arcjet-example
 npm install
+```
+
+Whether you are using localhost or Github Codespaces, you need to set your ARCJET_KEY and OPENAI_API_KEY environment variables.  Create a .env file with the following contents:
+
+``` bash
+ARCJET_KEY=<YOUR_ARCJET_KEY>
+OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 ```
 
 Finally, run the development server using npm (or your favorite js package manager):
