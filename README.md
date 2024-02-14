@@ -4,10 +4,11 @@
 
 This project uses the following technologies to create a simple chat application
 
-- [Vercel AI SDK](https://urldefense.proofpoint.com/v2/url?u=https-3A__sdk.vercel.ai_docs&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=GDjTH4jk81RaRnAFrjtxch_TrjplwTGBmljld5IQL0c&m=yRG9QWKauqhz-avNRlSCAzfH9Ryoe-8k0mAoeB_Y6j86jTkpVwstKwEl10ltNYqc&s=uQnv5BIKERWVFSf_9vKvvL_LkGhEpG9-VgUgNYgPX3I&e=)
 - ArcJet:
   - [Bot Protection](https://docs.arcjet.com/bot-protection/quick-start/nextjs)
   - [Rate Limiting](https://docs.arcjet.com/rate-limiting/quick-start/nextjs)
+- [Vercel AI SDK](https://urldefense.proofpoint.com/v2/url?u=https-3A__sdk.vercel.ai_docs&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=GDjTH4jk81RaRnAFrjtxch_TrjplwTGBmljld5IQL0c&m=yRG9QWKauqhz-avNRlSCAzfH9Ryoe-8k0mAoeB_Y6j86jTkpVwstKwEl10ltNYqc&s=uQnv5BIKERWVFSf_9vKvvL_LkGhEpG9-VgUgNYgPX3I&e=)
+
 
 This project can be used as an example of how to integrate ArcJet into your application. The libraries seamlessly integrate into your NextJs code so you can add security functionality into your application without a lot of fuss.
 
